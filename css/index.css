@@ -7,20 +7,35 @@ a {
     cursor: pointer;
 }
 
-#checkmore {
-    text-decoration: none;
+div {
+    display: block;
+}
+h1{
+    display: inline-block;
+    font-size: 24px;
+    text-align: left;
+    padding: 0;
+    border-top-width: 0px;
+    border-top-style: solid;
+    margin: 0 18px 20px 0;
+}
+.mypart{
+    margin: auto;
+    max-width: 1200px;
+    position: relative;
+}
+.checkmore {
     position: absolute;
     top: 15px;
     color: #8c8c8c;
     right: 0;
     font-size: 14px;
-    cursor: pointer;
 }
 
 .content-image {
-    margin: auto;
-    max-width: 1200px;
-    position: relative;
+    
+    font-size: 0;
+    margin-bottom: 60px;
 }
 
 .content-image div a {
@@ -50,7 +65,6 @@ a {
     position: relative;
     float: left;
     box-sizing: border-box;
-
 }
 
 .content-left a img {
@@ -66,7 +80,6 @@ a {
 .content-right a img {
     width: 231px;
     height: 231px;
-    
 }
 
 .image-left {
@@ -83,5 +96,5 @@ a {
     border: 1px solid #ddd;
     border-left: none;
     border-top: none;
-    margin-top: -4px;
+  
 }
