@@ -18,6 +18,10 @@ h1 {
     margin: 0 18px 20px 0;
 }
 
+fa {
+    color: grey;
+}
+
 .mypart {
     margin: auto;
     max-width: 1200px;
@@ -106,3 +110,77 @@ h1 {
     border: 1px solid #ddd;
     border-top: none;
 }
+
+.rightnav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 35px;
+    height: 100%;
+    background-color: rgb(78, 69, 69);
+    z-index: 8;
+}
+
+.content-nav {
+    color: #a3a3a3;
+    position: fixed;
+    top: 50%;
+}
+
+.nav-shop {
+    border-bottom: 1px solid;
+}
+
+.shoplink {
+    color: #a3a3a3;
+}
+
+.fa-cart-plus {
+    margin-left: 2px;
+}
+
+.shoplink p {
+    width: 16px;
+    font-size: 16px;
+    margin: 0 auto 0 10px;
+    display: block;
+    padding-bottom: 10px
+}
+
+.shopnum {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    background-color: #00b789;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 5px;
+    margin-bottom: 8px;
+    color: white;
+}
+
+
+.nav-service {
+    text-align: center;
+    margin-top: 14px;
+}
+
+ .link {
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    font-size: 20px;
+    color: #a3a3a3;
+}
+.backtop{
+    text-align: center;
+    margin-top: 14px;
+}
+ .link:hover {
+    background-color: #00b789;
+    color:white;
+}
+
